@@ -24,6 +24,7 @@ from pynetbox.models import (
     users,
     virtualization,
     wireless,
+    core
 )
 
 
@@ -52,6 +53,7 @@ class App:
         "extras": extras,
         "users": users,
         "wireless": wireless,
+        "core": core
     }
 
     def _setmodel(self):
